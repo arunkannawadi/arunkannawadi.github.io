@@ -16,6 +16,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v6
+      with:
+        persist-credentials: false
     - name: Cache Python packages
       uses: actions/cache@v5
       with:
