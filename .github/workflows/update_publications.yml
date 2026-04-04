@@ -38,7 +38,7 @@ jobs:
       run: python scripts/pubstats.py
       continue-on-error: true
     - name: Create Pull Request
-      uses: peter-evans/create-pull-request@v4
+      uses: peter-evans/create-pull-request@v6
       with:
         author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
         token: ${{ secrets.PAT }}
