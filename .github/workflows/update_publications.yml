@@ -33,10 +33,6 @@ jobs:
       run: |
         export ADS_API_KEY=${{ secrets.ADS_API_KEY }}
         python scripts/bibgen.py
-    - name: Update from Google Scholar
-      id: scholarly
-      run: python scripts/pubstats.py
-      continue-on-error: true
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v6
       with:
