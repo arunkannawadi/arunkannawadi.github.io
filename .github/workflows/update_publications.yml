@@ -9,6 +9,7 @@ on:
     - '.github/workflows/update_publications.yml'
   schedule:
     - cron: '0 10 * * 1'  # at 10am every Monday
+  workflow_dispatch: null
 
 jobs:
   update-publication-list:
