@@ -23,4 +23,3 @@ Paper that has come out of this project:
 </ol>
 
 <hr>
-
