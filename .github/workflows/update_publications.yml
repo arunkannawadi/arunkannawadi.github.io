@@ -47,4 +47,3 @@ jobs:
            This is an auto-generated PR to update the publication list.
         branch: actions/update-publication-list
         labels: 'auto-update-pubs'
-
